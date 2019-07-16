@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="bininfo">
+      <UniqueIdentifier>{5c863297-f9cf-4021-8d44-621f939af057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{f2d1110a-e4d9-4646-86b3-eef4c7ed72b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scope_guard">
+      <UniqueIdentifier>{50a4367f-c7af-4b71-90d2-3872d537b809}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bininfo.cpp">
+      <Filter>bininfo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dbg.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="scope_guard.h">
+      <Filter>scope_guard</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

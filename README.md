@@ -1,2 +1,8 @@
-# bininfo
-PE info from DLL/EXE
+# Binary Info
+
+Write information about DLL and EXE.
+
+Command line:
+```cpp
+$>biinfo.exe <filename>
+```
